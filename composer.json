@@ -1,0 +1,16 @@
+{
+    "require": {
+        "league/oauth1-client": "^1.6",
+        "wp-api/discovery": "dev-master"
+    },
+	"autoload": {
+		"psr-4": {
+			"RefactoredFox\\REST\\": "lib/rest/",
+			"RefactoredFox\\OAuth1\\": "lib/oauth1/"
+		},
+		"files": [
+			"lib/oauth1/helpers.php",
+			"lib/oauth1/oauth.php"
+		]
+	}
+}
